@@ -104,3 +104,4 @@ python3 tools/evaluate_annotations.py \
 Bộ ảnh là một tập con ảnh cảnh giao thông CCTV (nguồn gốc UA-DETRAC, phát hành lại dưới giấy phép CC-BY-4.0) đã được biên tập cho mục đích giảng dạy. Ảnh được đổi tên tuần tự và re-encode để loại bỏ metadata; repository không chứa ID ảnh nguồn, URL, hay nhãn train gold. Không đảo ngược, truy vết hay dùng thông tin ngoài repo để tìm nhãn.
 
 Chỉ dùng ảnh và nhãn trong phạm vi bài học. Không bổ sung ảnh cá nhân, biển số, dữ liệu khách hàng hoặc dữ liệu nhạy cảm vào repository/Colab công khai.
+# K5-L2-Day02-BUISYTUNG_2A202603323_ObjectDetection
