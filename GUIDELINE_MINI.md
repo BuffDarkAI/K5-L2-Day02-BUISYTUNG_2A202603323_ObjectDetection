@@ -6,22 +6,22 @@
 
 | Lớp | Định nghĩa của bạn | Ví dụ/điểm phân biệt |
 | --- | --- | --- |
-| `car` | | |
-| `truck` | | |
-| `bus` | | |
-| `van` | | |
-
+| `car` |xe con |xe ô tô cỡ nhỏ |
+| `truck` |xe tải |dạng xe bồn |
+| `bus` |xe bus |dạng xe khách |
+| `van` |xe chở hàng |to hon xe con |
 ## Quy tắc chung
 
-- Box bám sát vật thể nghĩa là: ...
-- Vật thể bị che khuất: ...
-- Vật thể bị cắt bởi rìa ảnh: ...
-- Vật thể rất nhỏ/mơ hồ: ...
+
+- Box bám sát vật thể nghĩa là: vẽ bounding box sát viền vật thể
+- Vật thể bị che khuất: bị các xẻ khác che một phần vật thể
+- Vật thể bị cắt bởi rìa ảnh: camara khuất tầm xe
+- Vật thể rất nhỏ/mơ hồ: ảnh mờ không thấy
 
 ## Ghi lại quyết định cho ít nhất ba ca mơ hồ
 
 | Ảnh | Tình huống | Quyết định cuối | Lý do theo schema |
 | --- | --- | --- | --- |
-| `drive_...` | | | |
-| `drive_...` | | | |
-| `drive_...` | | | |
+| `drive_002.jpg` | vật thể ở xa bị mơ hồ |bỏ qua |không thể xác định vật thể |
+| `drive_007.jpg` | vật thể vị che bởi cây|gán nhãn |vẫn có thể xác định vật thể |
+| `drive_017.jpg` |dãy vật thể sát nhau và mờ khó xác định biên |không gán nhãn |không thể xác định biên vật thể |
